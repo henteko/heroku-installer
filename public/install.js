@@ -1,3 +1,5 @@
+var DEBUG = false;
+
 $(function () {
   var status = $("#status");
   var api_key = $("input[name='api_key']");
@@ -14,6 +16,7 @@ $(function () {
 
     client.bind("log", function (data) {
       status.text(data);
+      DEBUG && console.log(data);
     });
 
     client.bind("error", function (message) {
