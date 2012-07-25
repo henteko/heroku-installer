@@ -1,0 +1,6 @@
+vendor
+Gemfile.lock
+.bundle
+.netrc
+.ssh
+.env
