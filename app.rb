@@ -117,7 +117,7 @@ end
   end
 
   post it do
-    fork do
+    EM.defer do
       channel = Pusher[params[:app_name]]
       buffer = IO.pipe
 
