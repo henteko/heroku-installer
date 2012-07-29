@@ -12,7 +12,7 @@ $(function () {
     $("form input").attr("disabled", "disabled");
     status.show();
 
-    var client = new Pusher($("body").attr("data-pusher-appid")).subscribe(app_name);
+    var client = new Pusher($("html").attr("data-pusher-key")).subscribe(app_name);
 
     client.bind("log", function (data) {
       status.text(data);
