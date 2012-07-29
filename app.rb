@@ -147,6 +147,6 @@ end
       channel.trigger("complete", "Deployed application at http://%s.herokuapp.com/" % params[:app_name])
     end
 
-    halt 204
+    204
   end
 end
