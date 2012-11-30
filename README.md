@@ -4,11 +4,11 @@
 
 任意のGitリポジトリをHerokuに直接デプロイします。  
 以下のURLをリポジトリのREADMEに貼るなどしてデプロイを加速しましょう。  
-`http://heroku-installer.gkbr.me/install/git://path/to/repo.git`
+`http://heroku-installer.hinasssan.com/install/git://path/to/repo.git`
 
 ## 試してみたい
 
- [Install lokka on Heroku](http://heroku-installer.gkbr.me/install/git://github.com/hinasssan/lokka-heroku)
+ [Install lokka on Heroku](http://heroku-installer.hinasssan.com/install/git://github.com/hinasssan/lokka-heroku)
  から Lokka をインストールできます。  
 
 
